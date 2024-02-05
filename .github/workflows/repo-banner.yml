@@ -1,6 +1,7 @@
 name: GitHub Repo Banner
 
 on:
+  workflow_call:
   workflow_dispatch:
   pull_request:
     types: [opened, synchronize, reopened]
